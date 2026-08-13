@@ -53,6 +53,12 @@ carga la base de datos con los datos de Rick and Morty (una sola vez, tarda unos
 curl -X POST http://localhost:3000/api/seed
 ```
 
+## Nota
+```bash
+npm run build
+```
+Si el npm run build no funciona eliminar el archivo "tsconfig.build.tsbuildinfo"
+
 ## Pruebas unitarias
 
 ```bash

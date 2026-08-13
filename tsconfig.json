@@ -16,6 +16,5 @@
 
     "sourceMap": true,
     "declaration": true,
-    "incremental": true
   }
 }

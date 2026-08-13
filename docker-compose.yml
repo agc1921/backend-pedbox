@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: rickmorty-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: pedbox
+      POSTGRES_PASSWORD: pedbox123
+      POSTGRES_DB: rickmorty
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

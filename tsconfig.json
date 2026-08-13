@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "ES2023",
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    "types": ["jest", "node"],
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+
+    "sourceMap": true,
+    "declaration": true,
+    "incremental": true
+  }
+}
